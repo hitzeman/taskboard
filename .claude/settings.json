@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "deny": ["Edit(/src/**)", "Edit(/e2e/**)", "Edit(/*.json)", "Edit(/*.ts)"],
+    "allow": [
+      "Edit(/**/*.md)",
+      "Bash(ng build:*)",
+      "Bash(ng test:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(git diff:*)",
+      "Bash(git status:*)"
+    ]
+  }
+}
