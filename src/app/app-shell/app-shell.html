@@ -1,0 +1,27 @@
+<div class="grid h-dvh grid-cols-[240px_1fr] grid-rows-[auto_1fr]">
+  <header class="col-span-full flex items-center gap-4 border-b border-gray-200 px-4 py-3">
+    <h1>Hitzeman Workspace</h1>
+
+    <nav aria-label="Views">
+      <ul class="flex gap-4">
+        <li><a routerLink="/board">Board</a></li>
+        <li><a routerLink="/list">List</a></li>
+      </ul>
+    </nav>
+
+    <button type="button" class="ml-auto">Search</button>
+  </header>
+
+  <nav class="overflow-y-auto border-r border-gray-200 p-4" aria-label="Lists">
+    <h2>Lists</h2>
+    <ul>
+      <li><a href="#">Website redesign</a></li>
+      <li><a href="#">Mobile app</a></li>
+      <li><a href="#">Q4 planning</a></li>
+    </ul>
+  </nav>
+
+  <main class="min-w-0 overflow-auto">
+    <router-outlet></router-outlet>
+  </main>
+</div>

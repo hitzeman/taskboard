@@ -94,7 +94,7 @@ Use the latest stable release of everything. Confirm versions on day 1 with `npm
 - [x] Install NgRx with `ng add` for store, effects, entity, router-store, and store-devtools.
 - [x] Install `@angular/cdk`.
 - [x] Confirm Vitest runs with `ng test`, and add Playwright with its init command.
-- [ ] Commit to a new Git repo so every session is a commit you can show.
+- [x] Commit to a new Git repo so every session is a commit you can show.
 
 **Claude Code setup (review-only)**
 
