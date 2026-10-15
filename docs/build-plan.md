@@ -101,7 +101,7 @@ Use the latest stable release of everything. Confirm versions on day 1 with `npm
 - [x] Add `.claude/settings.json` that denies `Edit`, `Write`, `MultiEdit`, and `NotebookEdit`, and allows `ng build`, `ng test`, Playwright, `git diff`, and `git status`.
 - [x] Export this doc as Markdown to `docs/build-plan.md`.
 - [x] Add `CLAUDE.md`: reviewer and tutor only, never write or edit code or config; markdown in docs/ may be edited when I ask, for example to tick checklist items.; review `git diff` when asked; validate with build and tests; quiz the session's questions at the end; latest Angular, NgRx, Tailwind v4; Angular only.
-- [ ] Commit at the end of every session as `session-01`, `session-02`, and so on.
+- [x] Commit at the end of every session as `session-01`, `session-02`, and so on.
 
 ## Sessions at a glance
 

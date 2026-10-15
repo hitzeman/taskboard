@@ -3,7 +3,7 @@
 <div class="flex flex-col md:flex-row items-start gap-4 overflow-x-auto px-4 pb-4">
   @for (col of columns(); track col.status) {
     <section
-      class="flex flex-col w-72 shrink-0 rounded-lg bg-gray-100 p-3 GAP-2"
+      class="flex flex-col w-72 shrink-0 rounded-lg bg-gray-100 p-3 gap-2"
       [attr.aria-labelledby]="'col-' + col.status"
     >
       <h3 [id]="'col-' + col.status" class="font-medium">
