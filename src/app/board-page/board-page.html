@@ -13,7 +13,9 @@
 
       <ul class="flex flex-col gap-2">
         @for (task of col.tasks; track task.id) {
-          <li class="rounded-md border border-gray-200 bg-white p-3">{{ task.title }}</li>
+          <li>
+            <app-task-card [task]="task" (opened)="onOpened($event)"></app-task-card>
+          </li>
         } @empty {
           <li class="text-sm text-gray-600">No tasks</li>
         }
